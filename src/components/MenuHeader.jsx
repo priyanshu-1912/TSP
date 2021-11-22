@@ -66,8 +66,11 @@ export const MenuHeader = props => {
         execution.
         <br />
          Priyanshu Mourya 18BEI0073
+        <br />
          Avantika Singh   18BEI0050
+        <br />
          Riddhi Dwivedi   18BEI0076
+        <br />
         
       </Typography>
     </MenuSection>
