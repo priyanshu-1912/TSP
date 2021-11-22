@@ -24,7 +24,7 @@ export default {
   furthestInsertion,
   nearestInsertion,
   convexHull,
-  simulatedAnnealing,
+  aaasimulatedAnnealing,
 
   twoOptInversion,
   twoOptReciprocalExchange
