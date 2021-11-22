@@ -47,7 +47,7 @@ export const MenuHeader = props => {
           <Tooltip title="Source code">
             <IconButton
               target="_blank"
-              href="https://github.com/jhackshaw/tspvis"
+              href="https://github.com/priyanshu-1912/TSP"
             >
               <FontAwesomeIcon icon={faGithub} size="xs" width="0" />
             </IconButton>
@@ -61,12 +61,14 @@ export const MenuHeader = props => {
         </Typography>
       </Grid>
       <Typography variant="subtitle2" color="textSecondary">
-        Visualize algorithms for the traveling salesman problem. Use the
-        controls below to plot points, choose an algorithm, and control
+        Visualize Miller Tucker Zemlin formulation for the traveling salesman problem. Use the
+        controls below to plot points, choose an algorithm also if you like, and control
         execution.
         <br />
-        (Hint: try a construction alogorithm followed by an improvement
-        algorithm)
+         Priyanshu Mourya 18BEI0073
+         Avantika Singh   18BEI0050
+         Riddhi Dwivedi   18BEI0076
+        
       </Typography>
     </MenuSection>
   );
