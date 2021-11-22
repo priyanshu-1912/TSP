@@ -40,8 +40,8 @@ export const MenuHeader = props => {
           variant="button"
           component="h1"
           classes={{ root: classes.title }}
-        >
-          <FontAwesomeIcon icon={faBriefcase} width="0" /> TSPVIS
+        >9
+          <FontAwesomeIcon icon={faBriefcase} width="0" /> Eng. Optimzation Project(TSP)
         </Typography>
         <Typography gutterBottom display="inline" color="textSecondary">
           <Tooltip title="Source code">
