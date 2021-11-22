@@ -11,7 +11,7 @@ import { useThemeContext } from "../context";
 
 // not secret
 const TOKEN =
-  "pk.eyJ1IjoiaW50cmVwaWRldiIsImEiOiJjazBpa2M5YnowMHcyM21ubzgycW8zZHJmIn0.DCO2aRA6MJweC8HN-d_cgQ";
+  "pk.eyJ1IjoieHlzdDE5MTIiLCJhIjoiY2t3YTlxY3NmMzhkczJvcm9oMnhoZzlkaSJ9.xg4BRQpwPtcH5WwBr2Vhbg";
 
 export const MapPlot = React.forwardRef((props, ref) => {
   const { children } = props;
