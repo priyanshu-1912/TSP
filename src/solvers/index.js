@@ -8,7 +8,7 @@ import arbitraryInsertion from "./heuristic-construction/arbitraryInsertion.work
 import nearestInsertion from "./heuristic-construction/nearestInsertion.worker";
 import furthestInsertion from "./heuristic-construction/furthestInsertion.worker";
 import convexHull from "./heuristic-construction/convexHull.worker";
-import simulatedAnnealing from "./heuristic-construction/zmtFormulation.worker";
+import simulatedAnnealing from "./heuristic-construction/simulatedAnnealing.worker";
 
 import twoOptInversion from "./heuristic-improvement/twoOptInversion.worker";
 import twoOptReciprocalExchange from "./heuristic-improvement/twoOptReciprocalExchange.worker";
@@ -24,7 +24,7 @@ export default {
   furthestInsertion,
   nearestInsertion,
   convexHull,
-  zmtFormulation,
+  simulatedAnnealing,
 
   twoOptInversion,
   twoOptReciprocalExchange
