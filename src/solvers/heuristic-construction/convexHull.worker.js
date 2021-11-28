@@ -6,7 +6,7 @@ import {
   EVALUATING_SEGMENT_COLOR
 } from "../../constants";
 
-const zmt = async points => {
+const convexHull = async points => {
   const sp = points[0];
 
   // Find the "left most point"
@@ -122,4 +122,4 @@ const zmt = async points => {
   self.setBestPath(path, cost);
 };
 
-makeSolver(zmt);
+makeSolver(convexHull);
